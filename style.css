@@ -1,0 +1,38 @@
+body{
+text-align: center;
+}
+.header{
+    background-color:hotpink;
+    box-shadow:5px 5px 5px silver; 
+    width:100%;
+}
+.copy-right-footer{
+background-color:hotpink;
+color:white;
+position:fixed;
+bottom:0;
+width:100%;
+line-height:3;
+text-align:center;
+}
+canvas
+  {
+    border:5px solid white;
+    border-radius:20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+   
+}
+@keyframes example {
+
+  from {box-shadow: 1px 1px 38px rgb(255, 144, 246);}
+  to {box-shadow: 1px 1px 38px rgb(195, 136, 255);}
+  from {box-shadow: 1px 1px 38px rgb(129, 131, 255);}
+  to {box-shadow: 1px 1px 38px rgb(121, 183, 255);}
+  from {box-shadow: 1px 1px 38px rgb(129, 131, 255);}
+  to {box-shadow: 1px 1px 38px rgb(195, 136, 255);}
+  from {box-shadow: 1px 1px 38px rgb(255, 144, 246);}
+  to {box-shadow: 1px 1px 38px rgb(255, 144, 246);}
+}
