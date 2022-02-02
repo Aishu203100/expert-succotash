@@ -17,7 +17,6 @@ text-align:center;
 }
 canvas
   {
-    background:#2bffc3;
     border:5px solid white;
     border-radius:20px;
     animation-name: example;
